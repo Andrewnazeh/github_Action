@@ -20,12 +20,12 @@ jobs:
 
 
     steps:
-      - name: "testing github action"
-        run: pwd
-
-
+     
       - name: "printing name"
-        run: echo Andrew
+        run: echo "Andrew nazeh"
+     
+      - name: "printing name"
+        run: echo "Andrew nazeh"
 
 
 
