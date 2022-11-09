@@ -4,15 +4,6 @@ on:
       - main
 
 
-
-
-
-
-
-
-
-
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -21,11 +12,14 @@ jobs:
 
     steps:
      
+      - uses: actions/checkout@v3
+
       - name: "printing name"
         run: echo "Andrew nazeh"
-     
-      - name: "printing name"
-        run: echo "Andrew nazeh"
+
+      - name: "login docker hub"
+        run: docker login --username andrewnazeh --password dckr_pat_4XEssROQCnyEEpNTfxf3v-thS5Y
+
 
 
 
