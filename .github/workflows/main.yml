@@ -18,7 +18,7 @@ jobs:
         run: echo "Andrew nazeh"
 
       - name: "login docker hub"
-        run: docker login --username andrewnazeh --password dckr_pat_4XEssROQCnyEEpNTfxf3v-thS5Y
+        run: docker login --username DOCKER_USERNAME --password DOCKER_PASSWORD
 
 
 
